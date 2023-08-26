@@ -1,0 +1,7 @@
+2023/08/26 21:20:13.176409 build/soong/cmd/soong_ui/main.go:204: Detected 15.3 GB total RAM
+2023/08/26 21:20:13.176422 build/soong/cmd/soong_ui/main.go:205: Parallelism (local/remote/highmem): 14/0/1
+2023/08/26 21:20:13.176425 build/soong/cmd/soong_ui/main.go:619: Current file limits: 1024 soft, 1048576 hard
+2023/08/26 21:20:13.176432 build/soong/cmd/soong_ui/main.go:232: Took 37ms to start up.
+2023/08/26 21:20:13.387487 build/soong/ui/build/exec.go:64: "dumpvars" executing "prebuilts/build-tools/linux-x86/bin/ckati" [prebuilts/build-tools/linux-x86/bin/ckati -f build/make/core/config.mk --color_warnings --kati_stats dump-many-vars MAKECMDGOALS=]
+2023/08/26 21:20:14.145909 build/soong/ui/build/exec.go:74: "dumpvars" finished with exit code 0 (758ms real, 631ms user, 105ms system, 208MB maxrss)
+2023/08/26 21:20:14.145933 build/soong/ui/build/dumpvars.go:123: TARGET_DEVICE phone1

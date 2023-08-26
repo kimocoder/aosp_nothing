@@ -1,0 +1,129 @@
+2023/08/26 21:20:16.383819 build/soong/cmd/soong_ui/main.go:204: Detected 15.3 GB total RAM
+2023/08/26 21:20:16.383832 build/soong/cmd/soong_ui/main.go:205: Parallelism (local/remote/highmem): 2/0/1
+2023/08/26 21:20:16.383835 build/soong/cmd/soong_ui/main.go:619: Current file limits: 1024 soft, 1048576 hard
+2023/08/26 21:20:16.383841 build/soong/cmd/soong_ui/main.go:232: Took 41ms to start up.
+2023/08/26 21:20:16.608801 build/soong/ui/build/build.go:189: Starting build with args: [otapackage]
+2023/08/26 21:20:16.608840 build/soong/ui/build/build.go:190: Environment: [SHELL=/usr/bin/zsh ORIGINAL_PWD=/root/WORKSPACE ANDROID_PYTHONPATH=/root/WORKSPACE/development/python-packages: COLORTERM=truecolor BUILD_ENV_SEQUENCE_NUMBER=13 SUDO_GID=1000 NVM_INC=/root/.nvm/versions/node/v20.5.1/include/node ANDROID_SOONG_HOST_OUT=/root/WORKSPACE/out/host/linux-x86 POWERSHELL_UPDATECHECK=Off LANGUAGE= TARGET_BOARD_PLATFORM=lahaina LESS_TERMCAP_se=[0m LESS_TERMCAP_so=[01;33m POWERSHELL_TELEMETRY_OPTOUT=1 DOTNET_CLI_TELEMETRY_OPTOUT=1 SUDO_COMMAND=/usr/bin/su ANDROID_BUILD_PATHS=/root/WORKSPACE/out/host/linux-x86/bin:/root/WORKSPACE/out/host/linux-x86/bin:/root/WORKSPACE/development/scripts:/root/WORKSPACE/prebuilts/devtools/tools:/root/WORKSPACE/prebuilts/misc/linux-x86/dtc:/root/WORKSPACE/prebuilts/misc/linux-x86/libufdt:/root/WORKSPACE/prebuilts/clang/host/linux-x86/llvm-binutils-stable:/root/WORKSPACE/prebuilts/asuite/acloud/linux-x86:/root/WORKSPACE/prebuilts/asuite/aidegen/linux-x86:/root/WORKSPACE/prebuilts/asuite/atest/linux-x86: SUDO_USER=kimocoder PWD=/root/WORKSPACE LOGNAME=root BUILD_BROKEN_DUP_SYSPROP=true XAUTHORITY=/home/kimocoder/.Xauthority TARGET_GCC_VERSION=4.9 COMMAND_NOT_FOUND_INSTALL_PROMPT=1 HOME=/root LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90::ow=30;44: XDG_CURRENT_DESKTOP=XFCE SDCLANG_CONFIG=/root/WORKSPACE/vendor/qcom/sdclang/config/SnapdragonClang.json NVM_DIR=/root/.nvm TARGET_BUILD_APPS= TARGET_BUILD_TYPE=release PYTHONPATH=/root/WORKSPACE/development/python-packages: TERM=xterm-256color LESS_TERMCAP_mb=[1;31m LESS_TERMCAP_me=[0m LESS_TERMCAP_md=[1;36m USER=root FILE_NAME_TAG=eng.root QTI_BUILDTOOLS_DIR=/root/WORKSPACE/vendor/qcom/opensource/core-utils SDCLANG_AE_CONFIG=/root/WORKSPACE/vendor/qcom/sdclang/config/SnapdragonClang.json TOP=/root/WORKSPACE TRACE_BEGIN_SOONG=1693077616342113515 PLATFORM_VERSION=13 SHLVL=2 LESS_TERMCAP_ue=[0m NVM_CD_FLAGS=-q LESS_TERMCAP_us=[1;32m DEVICE=phone1 SKIP_ABI_CHECKS=true GCC_COLORS=error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01 BUILD_BROKEN_MISSING_REQUIRED_MODULES=true SDCLANG=true AOSPA_BUILD=phone1 SUDO_UID=1000 TARGET_PRODUCT=aospa_phone1 MAIL=/var/mail/root NVM_BIN=/root/.nvm/versions/node/v20.5.1/bin TARGET_BUILD_VARIANT=userdebug OUT=/root/WORKSPACE/out/target/product/phone1 OLDPWD=/root/WORKSPACE OUT_DIR=out PYTHONDONTWRITEBYTECODE=1 TMPDIR=/root/WORKSPACE/out/soong/.temp ASAN_SYMBOLIZER_PATH=/root/WORKSPACE/prebuilts/clang/host/linux-x86/llvm-binutils-stable/llvm-symbolizer LC_MESSAGES=C.UTF-8 LANG=C.UTF-8 JAVA_HOME=/root/WORKSPACE/prebuilts/jdk/jdk11/linux-x86 ANDROID_JAVA_HOME=prebuilts/jdk/jdk11/linux-x86 ANDROID_JAVA8_HOME=prebuilts/jdk/jdk8/linux-x86 ANDROID_JAVA9_HOME=prebuilts/jdk/jdk9/linux-x86 ANDROID_JAVA11_HOME=prebuilts/jdk/jdk11/linux-x86 PATH=/root/WORKSPACE/prebuilts/jdk/jdk11/linux-x86/bin:/root/WORKSPACE/prebuilts/jdk/jdk11/linux-x86/bin:/root/WORKSPACE/out/host/linux-x86/bin:/root/WORKSPACE/out/host/linux-x86/bin:/root/WORKSPACE/development/scripts:/root/WORKSPACE/prebuilts/devtools/tools:/root/WORKSPACE/prebuilts/misc/linux-x86/dtc:/root/WORKSPACE/prebuilts/misc/linux-x86/libufdt:/root/WORKSPACE/prebuilts/clang/host/linux-x86/llvm-binutils-stable:/root/WORKSPACE/prebuilts/asuite/acloud/linux-x86:/root/WORKSPACE/prebuilts/asuite/aidegen/linux-x86:/root/WORKSPACE/prebuilts/asuite/atest/linux-x86:/root/.bin:/root/.nvm/versions/node/v20.5.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games BUILD_DATETIME_FILE=out/build_date.txt]
+2023/08/26 21:20:16.608952 build/soong/ui/build/build.go:166: Total RAM: 15.3GB
+2023/08/26 21:20:16.608966 build/soong/ui/build/build.go:169: ************************************************************
+2023/08/26 21:20:16.608971 build/soong/ui/build/build.go:170: You are building on a machine with 15.3GB of RAM
+2023/08/26 21:20:16.608975 build/soong/ui/build/build.go:171: 
+2023/08/26 21:20:16.608978 build/soong/ui/build/build.go:172: The minimum required amount of free memory is around 16GB,
+2023/08/26 21:20:16.608982 build/soong/ui/build/build.go:173: and even with that, some configurations may not work.
+2023/08/26 21:20:16.608985 build/soong/ui/build/build.go:174: 
+2023/08/26 21:20:16.608989 build/soong/ui/build/build.go:175: If you run into segfaults or other errors, try reducing your
+2023/08/26 21:20:16.608992 build/soong/ui/build/build.go:176: -j value.
+2023/08/26 21:20:16.608995 build/soong/ui/build/build.go:177: ************************************************************
+2023/08/26 21:20:16.971652 build/soong/ui/build/exec.go:64: "dumpvars" executing "prebuilts/build-tools/linux-x86/bin/ckati" [prebuilts/build-tools/linux-x86/bin/ckati -f build/make/core/config.mk --color_warnings --kati_stats dump-many-vars MAKECMDGOALS=otapackage]
+2023/08/26 21:20:17.895591 build/soong/ui/build/exec.go:74: "dumpvars" finished with exit code 0 (924ms real, 765ms user, 140ms system, 301MB maxrss)
+2023/08/26 21:20:17.895623 build/soong/ui/build/dumpvars.go:123: NINJA_GOALS otapackage
+2023/08/26 21:20:17.895627 build/soong/ui/build/dumpvars.go:123: KATI_GOALS 
+2023/08/26 21:20:17.895629 build/soong/ui/build/dumpvars.go:123: TARGET_DEVICE phone1
+2023/08/26 21:20:17.895631 build/soong/ui/build/dumpvars.go:123: TARGET_DEVICE_DIR device/nothing/phone1
+2023/08/26 21:20:17.895633 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_DUP_RULES true
+2023/08/26 21:20:17.895636 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_NETWORK 
+2023/08/26 21:20:17.895639 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_NINJA_USES_ENV_VARS 
+2023/08/26 21:20:17.895642 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_SRC_DIR_IS_WRITABLE 
+2023/08/26 21:20:17.895645 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_SRC_DIR_RW_ALLOWLIST 
+2023/08/26 21:20:17.895647 build/soong/ui/build/dumpvars.go:123: BOARD_VNDK_VERSION current
+2023/08/26 21:20:17.895649 build/soong/ui/build/dumpvars.go:123: DEFAULT_WARNING_BUILD_MODULE_TYPES 
+2023/08/26 21:20:17.895659 build/soong/ui/build/dumpvars.go:123: DEFAULT_ERROR_BUILD_MODULE_TYPES BUILD_COPY_HEADERS BUILD_HOST_EXECUTABLE BUILD_HOST_SHARED_LIBRARY BUILD_HOST_STATIC_LIBRARY
+2023/08/26 21:20:17.895661 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_PREBUILT_ELF_FILES 
+2023/08/26 21:20:17.895663 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_TREBLE_SYSPROP_NEVERALLOW 
+2023/08/26 21:20:17.895665 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_COPY_HEADERS 
+2023/08/26 21:20:17.895666 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_EXECUTABLE 
+2023/08/26 21:20:17.895668 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_FUZZ_TEST 
+2023/08/26 21:20:17.895880 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HEADER_LIBRARY 
+2023/08/26 21:20:17.895882 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HOST_DALVIK_JAVA_LIBRARY 
+2023/08/26 21:20:17.895884 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HOST_DALVIK_STATIC_JAVA_LIBRARY 
+2023/08/26 21:20:17.895886 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HOST_EXECUTABLE 
+2023/08/26 21:20:17.895888 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HOST_JAVA_LIBRARY 
+2023/08/26 21:20:17.895890 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HOST_PREBUILT 
+2023/08/26 21:20:17.895891 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HOST_SHARED_LIBRARY 
+2023/08/26 21:20:17.895893 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_HOST_STATIC_LIBRARY 
+2023/08/26 21:20:17.895895 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_JAVA_LIBRARY 
+2023/08/26 21:20:17.895897 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_MULTI_PREBUILT 
+2023/08/26 21:20:17.895898 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_NATIVE_TEST 
+2023/08/26 21:20:17.895900 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_NOTICE_FILE 
+2023/08/26 21:20:17.895902 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_PACKAGE 
+2023/08/26 21:20:17.895904 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_PHONY_PACKAGE 
+2023/08/26 21:20:17.895905 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_PREBUILT 
+2023/08/26 21:20:17.895907 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_RRO_PACKAGE 
+2023/08/26 21:20:17.895909 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_SHARED_LIBRARY 
+2023/08/26 21:20:17.895911 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_STATIC_JAVA_LIBRARY 
+2023/08/26 21:20:17.895912 build/soong/ui/build/dumpvars.go:123: BUILD_BROKEN_USES_BUILD_STATIC_LIBRARY 
+2023/08/26 21:20:17.895914 build/soong/ui/build/dumpvars.go:123: TARGET_PRODUCT aospa_phone1
+2023/08/26 21:20:17.895916 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_VARIANT userdebug
+2023/08/26 21:20:17.895918 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_APPS 
+2023/08/26 21:20:17.895920 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_UNBUNDLED 
+2023/08/26 21:20:17.895921 build/soong/ui/build/dumpvars.go:123: CC_WRAPPER 
+2023/08/26 21:20:17.895923 build/soong/ui/build/dumpvars.go:123: CXX_WRAPPER 
+2023/08/26 21:20:17.895925 build/soong/ui/build/dumpvars.go:123: RBE_WRAPPER 
+2023/08/26 21:20:17.895927 build/soong/ui/build/dumpvars.go:123: JAVAC_WRAPPER 
+2023/08/26 21:20:17.895928 build/soong/ui/build/dumpvars.go:123: R8_WRAPPER 
+2023/08/26 21:20:17.895930 build/soong/ui/build/dumpvars.go:123: D8_WRAPPER 
+2023/08/26 21:20:17.895932 build/soong/ui/build/dumpvars.go:123: CCACHE_COMPILERCHECK 
+2023/08/26 21:20:17.895934 build/soong/ui/build/dumpvars.go:123: CCACHE_SLOPPINESS 
+2023/08/26 21:20:17.895935 build/soong/ui/build/dumpvars.go:123: CCACHE_BASEDIR 
+2023/08/26 21:20:17.895937 build/soong/ui/build/dumpvars.go:123: CCACHE_CPP2 
+2023/08/26 21:20:17.895939 build/soong/ui/build/dumpvars.go:123: TOOLCHAIN_RUSAGE_OUTPUT 
+2023/08/26 21:20:17.895941 build/soong/ui/build/dumpvars.go:123: PLATFORM_VERSION_CODENAME REL
+2023/08/26 21:20:17.895943 build/soong/ui/build/dumpvars.go:123: PLATFORM_VERSION 13
+2023/08/26 21:20:17.895946 build/soong/ui/build/dumpvars.go:123: AOSPA_VERSION topaz-unofficial-phone1-20230826
+2023/08/26 21:20:17.895948 build/soong/ui/build/dumpvars.go:123: PRODUCT_INCLUDE_TAGS 
+2023/08/26 21:20:17.895950 build/soong/ui/build/dumpvars.go:123: TARGET_PRODUCT aospa_phone1
+2023/08/26 21:20:17.895952 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_VARIANT userdebug
+2023/08/26 21:20:17.895954 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_TYPE release
+2023/08/26 21:20:17.895955 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_APPS 
+2023/08/26 21:20:17.895957 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_UNBUNDLED 
+2023/08/26 21:20:17.895959 build/soong/ui/build/dumpvars.go:123: TARGET_ARCH arm64
+2023/08/26 21:20:17.895961 build/soong/ui/build/dumpvars.go:123: TARGET_ARCH_VARIANT armv8-2a-dotprod
+2023/08/26 21:20:17.895963 build/soong/ui/build/dumpvars.go:123: TARGET_CPU_VARIANT cortex-a76
+2023/08/26 21:20:17.895964 build/soong/ui/build/dumpvars.go:123: TARGET_2ND_ARCH arm
+2023/08/26 21:20:17.895966 build/soong/ui/build/dumpvars.go:123: TARGET_2ND_ARCH_VARIANT armv8-2a
+2023/08/26 21:20:17.895968 build/soong/ui/build/dumpvars.go:123: TARGET_2ND_CPU_VARIANT cortex-a76
+2023/08/26 21:20:17.895970 build/soong/ui/build/dumpvars.go:123: HOST_ARCH x86_64
+2023/08/26 21:20:17.895971 build/soong/ui/build/dumpvars.go:123: HOST_2ND_ARCH x86
+2023/08/26 21:20:17.895973 build/soong/ui/build/dumpvars.go:123: HOST_OS linux
+2023/08/26 21:20:17.895975 build/soong/ui/build/dumpvars.go:123: HOST_OS_EXTRA Linux-6.5.0-rc7-kimocoder-x86_64-Kali-GNU/Linux-Rolling
+2023/08/26 21:20:17.895977 build/soong/ui/build/dumpvars.go:123: HOST_CROSS_OS windows
+2023/08/26 21:20:17.895979 build/soong/ui/build/dumpvars.go:123: HOST_CROSS_ARCH x86
+2023/08/26 21:20:17.895981 build/soong/ui/build/dumpvars.go:123: HOST_CROSS_2ND_ARCH x86_64
+2023/08/26 21:20:17.895982 build/soong/ui/build/dumpvars.go:123: HOST_BUILD_TYPE release
+2023/08/26 21:20:17.895984 build/soong/ui/build/dumpvars.go:123: BUILD_ID TKQ1.230627.001
+2023/08/26 21:20:17.895986 build/soong/ui/build/dumpvars.go:123: OUT_DIR out
+2023/08/26 21:20:17.895988 build/soong/ui/build/dumpvars.go:123: AUX_OS_VARIANT_LIST 
+2023/08/26 21:20:17.895990 build/soong/ui/build/dumpvars.go:123: PRODUCT_SOONG_NAMESPACES device/nothing/phone1 vendor/nothing/phone1 vendor/nothing/camera vendor/google/gms vendor/google/pixel vendor/qcom/common/vendor/adreno-6xx-legacy vendor/qcom/common/system/alarm device/qcom/common/vendor/alarm vendor/qcom/common/vendor/alarm vendor/qcom/common/system/audio vendor/qcom/common/system/av vendor/qcom/opensource/commonsys/packages/apps/Bluetooth vendor/qcom/opensource/commonsys/system/bt/conf vendor/qcom/opensource/commonsys/system/bt/main vendor/qcom/common/system/bt vendor/qcom/common/vendor/charging vendor/qcom/common/system/display hardware/qcom/display hardware/qcom/display/gralloc hardware/qcom/display/init hardware/qcom/display/libdebug vendor/qcom/common/vendor/display vendor/qcom/common/system/gps device/qcom/common/vendor/gps-legacy vendor/qcom/common/vendor/gps-legacy device/qcom/common/vendor/init device/qcom/common/vendor/media-5.4 vendor/qcom/common/vendor/media-5.4 device/qcom/common/system/overlay vendor/qcom/common/system/perf device/qcom/common/vendor/perf-legacy vendor/qcom/common/vendor/perf-legacy vendor/qcom/common/system/telephony device/qcom/common/vendor/telephony vendor/qcom/opensource/data-ipa-cfg-mgr-legacy device/qcom/common/vendor/usb vendor/qcom/common/system/wfd device/qcom/common/vendor/wlan-legacy vendor/qcom/opensource/data-ipa-cfg-mgr-legacy vendor/qcom/common/vendor/wlan-legacy
+2023/08/26 21:20:17.895992 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_PREFER 
+2023/08/26 21:20:17.895994 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE 
+2023/08/26 21:20:17.895996 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_USE_SOURCE_CONFIG_VAR 
+2023/08/26 21:20:17.895997 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_VERSION 
+2023/08/26 21:20:18.155454 build/soong/ui/build/exec.go:64: "soong bootstrap" executing "prebuilts/build-tools/linux-x86/bin/ninja" [prebuilts/build-tools/linux-x86/bin/ninja -d keepdepfile -d stats -o usesphonyoutputs=yes -o preremoveoutputs=yes -w dupbuild=err -w outputdir=warn -w missingoutfile=warn -j 2 --frontend_file out/.ninja_fifo -f out/soong/bootstrap.ninja out/soong/build.ninja]
+2023/08/26 21:23:03.778156 build/soong/ui/build/exec.go:74: "soong bootstrap" finished with exit code 1 (2m45.623s real, 20m14.034s user, 1m43.352s system, 12226MB maxrss)
+2023/08/26 21:23:03.778706 build/soong/ui/build/exec.go:127: soong bootstrap failed with: exit status 1
+2023/08/26 21:23:03.780687 build/soong/ui/status/critical_path.go:111: critical path took 1m10s
+2023/08/26 21:23:03.780693 build/soong/ui/status/critical_path.go:114: elapsed time 2m46s
+2023/08/26 21:23:03.780696 build/soong/ui/status/critical_path.go:116: perfect parallelism ratio 42%
+2023/08/26 21:23:03.780698 build/soong/ui/status/critical_path.go:120: critical path:
+2023/08/26 21:23:03.780702 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/go-cmp-internal-testprotos/pkg/github.com/google/go-cmp/cmp/internal/testprotos.a
+2023/08/26 21:23:03.780705 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/go-cmp-internal-teststructs/pkg/github.com/google/go-cmp/cmp/internal/teststructs.a
+2023/08/26 21:23:03.780707 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/go-cmp/pkg/github.com/google/go-cmp/cmp.a
+2023/08/26 21:23:03.780709 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/golang-protobuf-internal-order/pkg/google.golang.org/protobuf/internal/order.a
+2023/08/26 21:23:03.780711 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/golang-protobuf-proto/pkg/google.golang.org/protobuf/proto.a
+2023/08/26 21:23:03.780713 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/golang-protobuf-internal-filedesc/pkg/google.golang.org/protobuf/internal/filedesc.a
+2023/08/26 21:23:03.780716 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/golang-protobuf-internal-encoding-tag/pkg/google.golang.org/protobuf/internal/encoding/tag.a
+2023/08/26 21:23:03.780717 build/soong/ui/status/critical_path.go:125:     0:01 compile out/host/linux-x86/bin/go/golang-protobuf-internal-impl/pkg/google.golang.org/protobuf/internal/impl.a
+2023/08/26 21:23:03.780720 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/golang-protobuf-internal-filetype/pkg/google.golang.org/protobuf/internal/filetype.a
+2023/08/26 21:23:03.780722 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/golang-protobuf-runtime-protoimpl/pkg/google.golang.org/protobuf/runtime/protoimpl.a
+2023/08/26 21:23:03.780724 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/soong-ui-metrics_proto/pkg/android/soong/ui/metrics/metrics_proto.a
+2023/08/26 21:23:03.780726 build/soong/ui/status/critical_path.go:125:     0:03 compile out/host/linux-x86/bin/go/soong-android/pkg/android/soong/android.a
+2023/08/26 21:23:03.780728 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/soong-snapshot/pkg/android/soong/snapshot.a
+2023/08/26 21:23:03.780730 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/soong-etc/pkg/android/soong/etc.a
+2023/08/26 21:23:03.780732 build/soong/ui/status/critical_path.go:125:     0:02 compile out/host/linux-x86/bin/go/soong-cc/pkg/android/soong/cc.a
+2023/08/26 21:23:03.780734 build/soong/ui/status/critical_path.go:125:     0:03 compile out/host/linux-x86/bin/go/soong-java/pkg/android/soong/java.a
+2023/08/26 21:23:03.780736 build/soong/ui/status/critical_path.go:125:     0:01 compile out/host/linux-x86/bin/go/soong-apex/pkg/android/soong/apex.a
+2023/08/26 21:23:03.780738 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/soong-sdk/pkg/android/soong/sdk.a
+2023/08/26 21:23:03.780742 build/soong/ui/status/critical_path.go:125:     0:00 compile out/host/linux-x86/bin/go/soong_build/obj/soong_build.a
+2023/08/26 21:23:03.780744 build/soong/ui/status/critical_path.go:125:     0:01 link out/host/linux-x86/bin/go/soong_build/obj/a.out
+2023/08/26 21:23:03.780747 build/soong/ui/status/critical_path.go:125:     0:00 cp out/host/linux-x86/bin/soong_build
+2023/08/26 21:23:03.780749 build/soong/ui/status/critical_path.go:125:     0:57 analyzing Android.bp files and generating ninja file at out/soong/build.ninja

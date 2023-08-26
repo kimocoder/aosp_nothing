@@ -1,0 +1,1 @@
+../../../opensource/ecosw/joystick/aks/kernel/aks_js_drivers/aks_js_driver_product.mk

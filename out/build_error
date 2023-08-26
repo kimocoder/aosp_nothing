@@ -1,0 +1,4 @@
+é
+Manalyzing Android.bp files and generating ninja file at out/soong/build.ninjaÊcd "$(dirname "out/soong/host/linux-x86/bin/soong_build")" && BUILDER="$PWD/$(basename "out/soong/host/linux-x86/bin/soong_build")" && cd / &&  "$BUILDER"     --top "$TOP"     --soong_out "out/soong"     --out "out"     -o out/soong/build.ninja --globListDir build --globFile out/soong/globs-build.ninja -t -l out/.module_paths/Android.bp.list --available_env out/soong/soong.environment.available --used_env out/soong/soong.environment.used.build Android.bpClang SA is not enabled
+Killed
+"out/soong/build.ninja*exited with code: 1

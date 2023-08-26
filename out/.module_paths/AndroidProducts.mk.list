@@ -1,0 +1,7 @@
+device/generic/goldfish/AndroidProducts.mk
+device/generic/goldfish/car/AndroidProducts.mk
+device/generic/goldfish/pc/AndroidProducts.mk
+device/google/cuttlefish/AndroidProducts.mk
+device/qcom/crow/AndroidProducts.mk
+device/qcom/qssi/AndroidProducts.mk
+vendor/aospa/products/AndroidProducts.mk

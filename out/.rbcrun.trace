@@ -1,0 +1,30 @@
+1693078236115373 B microfactory /root/WORKSPACE/out/microfactory_Linux
+1693078236115390 B findDeps
+1693078236115480 E findDeps
+1693078236115494 B check compile github.com/google/blueprint/microfactory
+1693078236115527 E check compile github.com/google/blueprint/microfactory
+1693078236115530 B check compile main
+1693078236115544 E check compile main
+1693078236115545 B check link main
+1693078236115550 E check link main
+1693078236115563 B findDeps
+1693078236121325 E findDeps
+1693078236121348 B check compile go.starlark.net/syntax
+1693078236121509 B check compile go.starlark.net/internal/spell
+1693078236121675 E check compile go.starlark.net/syntax
+1693078236121703 E check compile go.starlark.net/internal/spell
+1693078236121707 B check compile go.starlark.net/resolve
+1693078236122021 E check compile go.starlark.net/resolve
+1693078236122025 B check compile go.starlark.net/internal/compile
+1693078236122274 E check compile go.starlark.net/internal/compile
+1693078236122277 B check compile go.starlark.net/starlark
+1693078236122632 E check compile go.starlark.net/starlark
+1693078236122638 B check compile go.starlark.net/starlarkstruct
+1693078236122834 E check compile go.starlark.net/starlarkstruct
+1693078236122837 B check compile rbcrun
+1693078236122934 E check compile rbcrun
+1693078236122936 B check compile main
+1693078236123025 E check compile main
+1693078236123027 B check link main
+1693078236123110 E check link main
+1693078236123113 E microfactory /root/WORKSPACE/out/microfactory_Linux

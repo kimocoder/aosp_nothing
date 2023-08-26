@@ -1,0 +1,8 @@
+FAILED: analyzing Android.bp files and generating ninja file at out/soong/build.ninja
+Outputs: out/soong/build.ninja
+Error: exited with code: 1
+Command: cd "$(dirname "out/host/linux-x86/bin/soong_build")" && BUILDER="$PWD/$(basename "out/host/linux-x86/bin/soong_build")" && cd / &&  "$BUILDER"     --top "$TOP"     --soong_out "out/soong"     --out "out"     -o out/soong/build.ninja --globListDir build --globFile out/soong/globs-build.ninja -t -l out/.module_paths/Android.bp.list --available_env out/soong/soong.environment.available --used_env out/soong/soong.environment.used.build Android.bp
+Output:
+Clang SA is not enabled
+Killed
+

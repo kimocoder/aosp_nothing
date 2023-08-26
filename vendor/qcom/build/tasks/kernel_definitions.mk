@@ -1,0 +1,1 @@
+../../../../device/qcom/kernelscripts/kernel_definitions.mk

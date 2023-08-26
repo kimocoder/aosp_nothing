@@ -1,0 +1,61 @@
+2023/08/26 21:20:14.208980 build/soong/cmd/soong_ui/main.go:204: Detected 15.3 GB total RAM
+2023/08/26 21:20:14.208992 build/soong/cmd/soong_ui/main.go:205: Parallelism (local/remote/highmem): 14/0/1
+2023/08/26 21:20:14.208996 build/soong/cmd/soong_ui/main.go:619: Current file limits: 1024 soft, 1048576 hard
+2023/08/26 21:20:14.209002 build/soong/cmd/soong_ui/main.go:232: Took 37ms to start up.
+2023/08/26 21:20:14.412621 build/soong/ui/build/exec.go:64: "dumpvars" executing "prebuilts/build-tools/linux-x86/bin/ckati" [prebuilts/build-tools/linux-x86/bin/ckati -f build/make/core/config.mk --color_warnings --kati_stats dump-many-vars MAKECMDGOALS=]
+2023/08/26 21:20:15.045440 build/soong/ui/build/exec.go:74: "dumpvars" finished with exit code 0 (633ms real, 496ms user, 85ms system, 200MB maxrss)
+2023/08/26 21:20:15.045478 build/soong/ui/build/dumpvars.go:123: 2ND_TARGET_GCC_VERSION 4.9
+2023/08/26 21:20:15.045487 build/soong/ui/build/dumpvars.go:123: ANDROID_BUILD_PATHS /root/WORKSPACE/out/host/linux-x86/bin:/root/WORKSPACE/out/host/linux-x86/bin
+2023/08/26 21:20:15.045494 build/soong/ui/build/dumpvars.go:123: COMMON_LUNCH_CHOICES aosp_cf_arm64_auto-userdebug aosp_cf_arm64_phone-userdebug aosp_cf_x86_64_foldable-userdebug aosp_cf_x86_64_only_phone_hsum-userdebug aosp_cf_x86_64_pc-userdebug aosp_cf_x86_64_phone-userdebug aosp_cf_x86_64_tv-userdebug aosp_cf_x86_auto-userdebug aosp_cf_x86_phone-userdebug aosp_cf_x86_tv-userdebug aospa_alioth-userdebug aospa_apollo-userdebug aospa_beryllium-userdebug aospa_bitra-userdebug aospa_bladerunner-userdebug aospa_bladerunner_48m-userdebug aospa_bluejay-userdebug aospa_cheetah-userdebug aospa_davinci-userdebug aospa_dubai-userdebug aospa_juice-userdebug aospa_lisa-userdebug aospa_lmi-userdebug aospa_lunaa-userdebug aospa_lynx-userdebug aospa_mi439-userdebug aospa_miatoll-userdebug aospa_mini5g-userdebug aospa_munch-userdebug aospa_oneplus5-userdebug aospa_oneplus5t-userdebug aospa_oneplus7-userdebug aospa_oneplus7pro-userdebug aospa_oneplus7t-userdebug aospa_oneplus7tpro-userdebug aospa_oneplus9-userdebug aospa_oneplus9r-userdebug aospa_oriole-userdebug aospa_panther-userdebug aospa_phoenix-userdebug aospa_phone1-userdebug aospa_porsche-userdebug aospa_raven-userdebug aospa_spes-userdebug aospa_sunny-userdebug aospa_surya-userdebug aospa_vayu-userdebug crow-userdebug qssi-userdebug sdk_car_arm-userdebug sdk_car_arm64-userdebug sdk_car_portrait_x86_64-userdebug sdk_car_x86-userdebug sdk_car_x86_64-userdebug sdk_pc_x86_64-userdebug
+2023/08/26 21:20:15.045499 build/soong/ui/build/dumpvars.go:123: HOST_PREBUILT_TAG linux-x86
+2023/08/26 21:20:15.045504 build/soong/ui/build/dumpvars.go:123: PLATFORM_VERSION 13
+2023/08/26 21:20:15.045509 build/soong/ui/build/dumpvars.go:123: PRODUCT_OUT out/target/product/phone1
+2023/08/26 21:20:15.045513 build/soong/ui/build/dumpvars.go:123: TARGET_ARCH arm64
+2023/08/26 21:20:15.045517 build/soong/ui/build/dumpvars.go:123: TARGET_BOARD_PLATFORM lahaina
+2023/08/26 21:20:15.045521 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_VARIANT userdebug
+2023/08/26 21:20:15.045525 build/soong/ui/build/dumpvars.go:123: TARGET_DEVICE phone1
+2023/08/26 21:20:15.045530 build/soong/ui/build/dumpvars.go:123: TARGET_GCC_VERSION 4.9
+2023/08/26 21:20:15.045534 build/soong/ui/build/dumpvars.go:123: TARGET_PLATFORM_VERSION TP1A
+2023/08/26 21:20:15.045538 build/soong/ui/build/dumpvars.go:123: TARGET_PRODUCT aospa_phone1
+2023/08/26 21:20:15.045542 build/soong/ui/build/dumpvars.go:123: print 
+2023/08/26 21:20:15.045547 build/soong/ui/build/dumpvars.go:123: ANDROID_CLANG_PREBUILTS prebuilts/clang/host/linux-x86
+2023/08/26 21:20:15.045551 build/soong/ui/build/dumpvars.go:123: ANDROID_GCC_PREBUILTS prebuilts/gcc/linux-x86
+2023/08/26 21:20:15.045556 build/soong/ui/build/dumpvars.go:123: ANDROID_JAVA_HOME prebuilts/jdk/jdk11/linux-x86
+2023/08/26 21:20:15.045560 build/soong/ui/build/dumpvars.go:123: ANDROID_JAVA_TOOLCHAIN prebuilts/jdk/jdk11/linux-x86/bin
+2023/08/26 21:20:15.045564 build/soong/ui/build/dumpvars.go:123: ANDROID_PREBUILTS prebuilt/linux-x86
+2023/08/26 21:20:15.045568 build/soong/ui/build/dumpvars.go:123: HOST_OUT out/host/linux-x86
+2023/08/26 21:20:15.045583 build/soong/ui/build/dumpvars.go:123: HOST_OUT_TESTCASES out/host/linux-x86/testcases
+2023/08/26 21:20:15.045588 build/soong/ui/build/dumpvars.go:123: PRODUCT_OUT out/target/product/phone1
+2023/08/26 21:20:15.045592 build/soong/ui/build/dumpvars.go:123: SOONG_HOST_OUT out/host/linux-x86
+2023/08/26 21:20:15.045596 build/soong/ui/build/dumpvars.go:123: TARGET_OUT_TESTCASES out/target/product/phone1/testcases
+2023/08/26 21:20:15.045601 build/soong/ui/build/dumpvars.go:123: print 
+2023/08/26 21:20:15.045605 build/soong/ui/build/dumpvars.go:123: PLATFORM_VERSION_CODENAME REL
+2023/08/26 21:20:15.045609 build/soong/ui/build/dumpvars.go:123: PLATFORM_VERSION 13
+2023/08/26 21:20:15.045613 build/soong/ui/build/dumpvars.go:123: AOSPA_VERSION topaz-unofficial-phone1-20230826
+2023/08/26 21:20:15.045617 build/soong/ui/build/dumpvars.go:123: PRODUCT_INCLUDE_TAGS 
+2023/08/26 21:20:15.045621 build/soong/ui/build/dumpvars.go:123: TARGET_PRODUCT aospa_phone1
+2023/08/26 21:20:15.045625 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_VARIANT userdebug
+2023/08/26 21:20:15.045629 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_TYPE release
+2023/08/26 21:20:15.045633 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_APPS 
+2023/08/26 21:20:15.045637 build/soong/ui/build/dumpvars.go:123: TARGET_BUILD_UNBUNDLED 
+2023/08/26 21:20:15.045641 build/soong/ui/build/dumpvars.go:123: TARGET_ARCH arm64
+2023/08/26 21:20:15.045646 build/soong/ui/build/dumpvars.go:123: TARGET_ARCH_VARIANT armv8-2a-dotprod
+2023/08/26 21:20:15.045650 build/soong/ui/build/dumpvars.go:123: TARGET_CPU_VARIANT cortex-a76
+2023/08/26 21:20:15.045654 build/soong/ui/build/dumpvars.go:123: TARGET_2ND_ARCH arm
+2023/08/26 21:20:15.045658 build/soong/ui/build/dumpvars.go:123: TARGET_2ND_ARCH_VARIANT armv8-2a
+2023/08/26 21:20:15.045662 build/soong/ui/build/dumpvars.go:123: TARGET_2ND_CPU_VARIANT cortex-a76
+2023/08/26 21:20:15.045666 build/soong/ui/build/dumpvars.go:123: HOST_ARCH x86_64
+2023/08/26 21:20:15.045670 build/soong/ui/build/dumpvars.go:123: HOST_2ND_ARCH x86
+2023/08/26 21:20:15.045674 build/soong/ui/build/dumpvars.go:123: HOST_OS linux
+2023/08/26 21:20:15.045679 build/soong/ui/build/dumpvars.go:123: HOST_OS_EXTRA Linux-6.5.0-rc7-kimocoder-x86_64-Kali-GNU/Linux-Rolling
+2023/08/26 21:20:15.045684 build/soong/ui/build/dumpvars.go:123: HOST_CROSS_OS windows
+2023/08/26 21:20:15.045688 build/soong/ui/build/dumpvars.go:123: HOST_CROSS_ARCH x86
+2023/08/26 21:20:15.045692 build/soong/ui/build/dumpvars.go:123: HOST_CROSS_2ND_ARCH x86_64
+2023/08/26 21:20:15.045696 build/soong/ui/build/dumpvars.go:123: HOST_BUILD_TYPE release
+2023/08/26 21:20:15.045700 build/soong/ui/build/dumpvars.go:123: BUILD_ID TKQ1.230627.001
+2023/08/26 21:20:15.045704 build/soong/ui/build/dumpvars.go:123: AUX_OS_VARIANT_LIST 
+2023/08/26 21:20:15.045709 build/soong/ui/build/dumpvars.go:123: PRODUCT_SOONG_NAMESPACES device/nothing/phone1 vendor/nothing/phone1 vendor/nothing/camera vendor/google/gms vendor/google/pixel vendor/qcom/common/vendor/adreno-6xx-legacy vendor/qcom/common/system/alarm device/qcom/common/vendor/alarm vendor/qcom/common/vendor/alarm vendor/qcom/common/system/audio vendor/qcom/common/system/av vendor/qcom/opensource/commonsys/packages/apps/Bluetooth vendor/qcom/opensource/commonsys/system/bt/conf vendor/qcom/opensource/commonsys/system/bt/main vendor/qcom/common/system/bt vendor/qcom/common/vendor/charging vendor/qcom/common/system/display hardware/qcom/display hardware/qcom/display/gralloc hardware/qcom/display/init hardware/qcom/display/libdebug vendor/qcom/common/vendor/display vendor/qcom/common/system/gps device/qcom/common/vendor/gps-legacy vendor/qcom/common/vendor/gps-legacy device/qcom/common/vendor/init device/qcom/common/vendor/media-5.4 vendor/qcom/common/vendor/media-5.4 device/qcom/common/system/overlay vendor/qcom/common/system/perf device/qcom/common/vendor/perf-legacy vendor/qcom/common/vendor/perf-legacy vendor/qcom/common/system/telephony device/qcom/common/vendor/telephony vendor/qcom/opensource/data-ipa-cfg-mgr-legacy device/qcom/common/vendor/usb vendor/qcom/common/system/wfd device/qcom/common/vendor/wlan-legacy vendor/qcom/opensource/data-ipa-cfg-mgr-legacy vendor/qcom/common/vendor/wlan-legacy
+2023/08/26 21:20:15.045717 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_PREFER 
+2023/08/26 21:20:15.045721 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE 
+2023/08/26 21:20:15.045725 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_USE_SOURCE_CONFIG_VAR 
+2023/08/26 21:20:15.045729 build/soong/ui/build/dumpvars.go:123: SOONG_SDK_SNAPSHOT_VERSION 

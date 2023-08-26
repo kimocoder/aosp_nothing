@@ -1,0 +1,1 @@
+../../../opensource/ecosw/joystick/aks/HAL/dist/vendor/gamepad_hal_vendor_product.mk

@@ -1,0 +1,1 @@
+../../../opensource/healthd-ext/health-vendor-product.mk

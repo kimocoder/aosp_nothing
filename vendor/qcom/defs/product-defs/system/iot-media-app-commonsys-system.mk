@@ -1,0 +1,1 @@
+../../../opensource/commonsys/iot-media-app-commonsys/iot-media-app-commonsys-system.mk

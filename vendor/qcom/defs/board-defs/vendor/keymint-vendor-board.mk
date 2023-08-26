@@ -1,0 +1,1 @@
+../../../../nxp/opensource/keymaster/keymint/keymint_vendor_board.mk
